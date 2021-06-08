@@ -12,12 +12,12 @@ public class TestCurrencyConverter {
 
     @Test
     public void test_dlr_to_rs(){
-        assertEquals(70, cc.dollar_to_rs(1));
+        assertEquals(450, cc.dollar_to_rs(5));
     }
 
     @Test
     public void test_sek_to_rs(){
-        assertEquals(18, cc.sek_to_rs(2));
+        assertEquals(90, cc.sek_to_rs(10));
     }
 
     @Test
