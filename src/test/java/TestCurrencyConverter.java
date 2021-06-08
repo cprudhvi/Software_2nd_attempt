@@ -22,6 +22,6 @@ public class TestCurrencyConverter {
 
     @Test
     public void test_euro_to_rs(){
-        assertEquals(300, cc.euro_to_rs(3));
+        assertEquals(30, cc.euro_to_rs(3));
     }
 }
