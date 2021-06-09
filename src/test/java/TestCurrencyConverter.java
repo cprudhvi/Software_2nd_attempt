@@ -25,3 +25,4 @@ public class TestCurrencyConverter {
         assertEquals(300, cc.euro_to_rs(3));
     }
 }
+// this is the screen recording to show that the environment works with the code and a few test cases that i have written to test in this project.
