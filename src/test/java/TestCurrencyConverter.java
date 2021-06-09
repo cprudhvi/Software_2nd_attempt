@@ -12,7 +12,7 @@ public class TestCurrencyConverter {
 
     @Test
     public void test_dlr_to_rs(){
-        assertEquals(35, cc.dollar_to_rs(5));
+        assertEquals(350, cc.dollar_to_rs(5));
     }
 
     @Test
@@ -27,3 +27,4 @@ public class TestCurrencyConverter {
 }
 
 //the above test case code is modified such that it doesnot give expectd results..! now lets build the code..
+// now we are modifying the test case code and rebulilding the project and see if this works to run the project!!
