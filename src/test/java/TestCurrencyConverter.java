@@ -17,7 +17,7 @@ public class TestCurrencyConverter {
 
     @Test
     public void test_sek_to_rs(){
-        assertEquals(9, cc.sek_to_rs(10));
+        assertEquals(90, cc.sek_to_rs(10));
     }
 
     @Test
@@ -28,3 +28,4 @@ public class TestCurrencyConverter {
 
 //the above test case code is modified such that it doesnot give expectd results..! now lets build the code..
 // now we are modifying the test case code and rebulilding the project and see if this works to run the project!!
+// it is clear that the test case 1 is up and running now lets make chages to the test case 2 and see if it works...!!!
